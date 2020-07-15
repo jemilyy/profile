@@ -1,0 +1,76 @@
+body {
+  color: #7f78d2;
+  font-size: 20px;
+  font-family: Poppins;
+  text-align: center;
+  background-color: #fffafa;
+}
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+h1 {
+  color: #481380;
+  font-size: 26px;
+  font-weight: 800;
+}
+h2 {
+  color: #7f78d2;
+  font-size: 22px;
+  font-weight: light;
+  text-decoration: underline;
+}
+a {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+}
+p {
+  text-align: center;
+  font-weight: 100;
+}
+
+.image-circle{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+.shadowed {
+  box-shadow: 5px 5px 3px #efb1ff;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+  color: black;
+}
+
+/* Design adjustments using id (1% design remaining) */
+#introduction p {
+  margin-bottom: 40px;
